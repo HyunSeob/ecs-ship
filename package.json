@@ -1,0 +1,37 @@
+{
+  "name": "ecs-ship",
+  "version": "0.0.1",
+  "description": "Deploy to ECS easily",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "ecs-ship": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyunSeob/ecs-ship.git"
+  },
+  "keywords": [
+    "ECS"
+  ],
+  "author": "HyunSeob <sytte1017@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyunSeob/ecs-ship/issues"
+  },
+  "homepage": "https://github.com/HyunSeob/ecs-ship#readme",
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^9.3.0",
+    "@types/ora": "^1.3.1",
+    "aws-sdk": "^2.181.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "ora": "^1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}

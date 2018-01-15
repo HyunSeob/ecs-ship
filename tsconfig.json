@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./@types/*", "./node_modules/@types/*" ]
+    }
+  },
+  "include": [ "./@types/**/*.ts", "./index.ts" ]
+}
